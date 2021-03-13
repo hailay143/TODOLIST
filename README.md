@@ -1,4 +1,4 @@
-#TODOLIST
+# TODOLIST
 ##A command line application in JAVA
 ### Project Brief:
 The project is to develop a software application that can do "To do list" functionalities.

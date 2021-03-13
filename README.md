@@ -1,5 +1,5 @@
 # TODOLIST
-##A command line application in JAVA
+## Acommand line application in JAVA
 ### Project Brief:
 The project is to develop a software application that can do "To do list" functionalities.
 The To do list application will be used to create a new task. There should be also a feature that enable to insert title and due date to the task. Then the tasks must be categorized based on the the Project they belong.

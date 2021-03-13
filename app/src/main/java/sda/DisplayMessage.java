@@ -68,11 +68,12 @@ public class DisplayMessage {
     public static void showMessage(String message, boolean warning) {
         System.out.println(warning?RedText:GreenText);
         System.out.println(">> " + message);
-        System.out.println(RedText);
+        System.out.println(ResetText);
     }
 
     public static void separator (char charToPrint, int times) {
-        for (int index=0; index<times; index++) System.out.print(charToPrint);
+        for (int index=0; index<times; index++)
+            System.out.print(charToPrint);
         System.out.println("");
     }
 

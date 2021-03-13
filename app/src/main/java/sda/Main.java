@@ -15,6 +15,7 @@ public class Main {
 
         try {
             Scanner input = new Scanner(System.in);
+
             todolist.readFromFile(fileName);
 
             DisplayMessage.showMessage("Welcome to ToDoLy", false);
@@ -52,9 +53,9 @@ public class Main {
             System.out.println("Trying to write the unsaved data of all tasks in data file");
             todolist.saveToFile(fileName);
             System.out.println(e.getMessage());
-            System.out.println(e.getStackTrace());
+            System.out.println(e.getStackTrace()); // check it up
+
         }
     }
+
 }
-
-

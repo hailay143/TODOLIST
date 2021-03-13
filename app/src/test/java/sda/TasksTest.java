@@ -60,7 +60,6 @@ class TasksTest {
         assertEquals(true,success);
     }
 
-
     @Test
     public void testNullTitle() {
         boolean success=false;
@@ -83,12 +82,12 @@ class TasksTest {
 
     @Test
     public void testEmptyProject() {
-        task.setProject("");
-        assertEquals("",task.getProject());
+        task.setProject("");assertEquals("",task.getProject());
     }
 
     @Test
     public void testValidDueDate() {
+
         assertEquals(validDueDate,task.getDueDate());
     }
 

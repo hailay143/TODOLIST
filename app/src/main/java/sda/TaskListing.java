@@ -222,7 +222,7 @@ public class TaskListing {
         try {
             if (!Files.isReadable(Paths.get(filename))) {
                 DisplayMessage.showMessage("The data file, i.e., " +
-                        filename + " does not exists", true);
+                        filename + " does not exists.", true);
                 return false;
             }
 

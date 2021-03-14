@@ -49,7 +49,7 @@ gradle run --console plain
 
 
 ## Class diagram
-https://github.com/hailay143/TODOLIST/issues/3#issue-831105512
+![IP Class diagram](IP Class diagram.jpg)
 
 ## User Manual
 ###The following details are missing. Tobe submitted for the final submission

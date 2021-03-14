@@ -9,10 +9,10 @@ The task list can be manipulated using Add, Delete, Edit and Save option.
   - due date, todo the task
   - completion status of task
   - categorise under project, if any
-* The application provides an option to sort the task list,
+*  The application provides an option to sort the task list,
   - by date
   - by project type
-* The application support the following requirements for task listing
+*  The application support the following requirements for task listing
   - Add a task
   - Edit task
   - Mark a task as done 

@@ -57,6 +57,4 @@ gradle run --console plain
   -Including more descriptive comments within the code
   -User manual/how to use the app# TODOLIST
   
-  #######################
-  for commiting
   

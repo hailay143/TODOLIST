@@ -45,3 +45,7 @@ gradle run --console plain
 - More detail of the class diagram
   -Including more descriptive comments within the code
   -User manual/how to use the app# TODOLIST
+  
+  #######################
+  for commiting
+  

@@ -29,16 +29,6 @@ The task list can be manipulated using Add, Delete, Edit and Save option.
 ###The ToDoList class diagram
 ![IP Class diagram](https://user-images.githubusercontent.com/79463089/111063369-621a5180-84ae-11eb-976f-b796795a66de.jpg)
 
-
-# TODOLIST
-## Acommand line application in JAVA
-### Project Brief:
-The project is to develop a software application that can do "To do list" functionalities.
-The To do list application will be used to create a new task. There should be also a feature that enable to insert title and due date to the task. Then the tasks must be categorized based on the the Project they belong.
-The App must have a text base user interface that can be archived using command line.
-Editing, mark tasks as done and removing tasks are the main required functionalities of the App.
-Quit the task and save the current task list to file are also additional requirements. Finally, the app required to restart and recovered to the former state.
-
 ##Getting started
 The application can be run from Gradle
 ### Run with Gradle

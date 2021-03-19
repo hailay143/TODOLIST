@@ -1,6 +1,9 @@
 package sda;
 
+import java.util.Arrays;
 import java.util.Scanner;
+
+import static java.lang.System.*;
 
 /**
  * This is the main class for the project
@@ -23,14 +26,14 @@ public class Main {
 
         // Create an object of TaskListing/todolist
         // It holds all tasks
-        TaskListing todolist = new TaskListing();
+        TaskList todolist = new TaskList();
 
         //Create a string that will hold the user choice entered
         String selectMenu = "-17";
 
         try {
             // Take the data file as an input
-            Scanner input = new Scanner(System.in);
+            Scanner input = new Scanner(in);
 
             //It reads the data from the task list data file
             //However, if this is the first time the Application running,
@@ -72,13 +75,11 @@ public class Main {
 
         } catch (Exception e) {
             DisplayMessage.showMessage("UNCAUGHT EXCEPTION THROWN", true);
-            System.out.println("Trying to write the unsaved data of all tasks in data file");
+            out.println("Trying to write the unsaved data of all tasks in data file");
             todolist.saveToFile(fileName);
-            System.out.println(e.getMessage());
-            System.out.println(e.getStackTrace()); // check it up
+            out.println(e.getMessage());
+            System.out.println(Arrays.toString(e.getStackTrace()));
 
         }
     }
-
-
 }

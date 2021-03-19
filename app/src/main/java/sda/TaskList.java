@@ -19,7 +19,7 @@ import java.util.Scanner;
  * @version 1.0
  * @since   2021-03-05
  **/
-public class TaskListing {
+public class TaskList {
 
     //Array list of task object
     private ArrayList<Tasks> taskList;
@@ -27,7 +27,7 @@ public class TaskListing {
     /**
      * creating an TaskListing object
      */
-    public TaskListing() {
+    public TaskList() {
         taskList = new ArrayList<>();
     }
 

@@ -36,3 +36,8 @@ tasks.named('test') {
     // Use junit platform for unit tests.
     useJUnitPlatform()
 }
+run {
+    standardInput= System.in
+}
+
+version ='1.0.0'

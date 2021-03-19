@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"sda","l":"DisplayMessage"},{"p":"sda","l":"Main"},{"p":"sda","l":"TaskList"},{"p":"sda","l":"Tasks"}];updateSearchResults();

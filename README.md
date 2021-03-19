@@ -25,12 +25,15 @@ The task list can be manipulated using Add, Delete, Edit and Save option.
 > * junit.jupiter:junit-jupiter-api:5.6.2
 
 ## Class diagram
-###The ToDoList class diagram
+### The ToDoList class diagram
 ![IP Class diagram](https://user-images.githubusercontent.com/79463089/111063369-621a5180-84ae-11eb-976f-b796795a66de.jpg)
 
-##Getting started
+## Getting started
 The application can be run from Gradle 
 >(gradle build =>gradle run)
+
+ Or using the .jar (Updating the run/debug configuration )
+> java -jar
 
 ### Run with Gradle
 The application can be started with Gradle's run command, as shown below.

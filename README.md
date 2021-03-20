@@ -23,7 +23,7 @@ The task list can be manipulated using Add, Delete, Edit and Save option.
 > * IDE-IntelliJ IDEA
 > * java 15.0.2
 > * Gradle 6.8.3
-> * junit.jupiter:junit-jupiter-api:5.6.2
+> * junit5
 
 ## Class diagram
 ### The ToDoList class diagram
